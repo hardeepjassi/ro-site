@@ -1,15 +1,17 @@
 .app{
 	max-width: 1200px;
 	width: 100%;
-	border-radius: 12px;
-	margin: 100px auto;
-	box-shadow: 0 0 5px #ccc;
+	/* margin: 100px auto; */
   }
   .details{
 	display: flex;
 	justify-content: space-around;
 	flex-wrap: wrap;
 	padding: 30px 0;
+	border-radius: 12px;
+
+	box-shadow: 0 0 5px #ccc;
+
   }
   .details .big-img{
 	max-width: 500px;
