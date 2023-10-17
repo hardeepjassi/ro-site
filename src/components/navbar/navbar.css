@@ -1,0 +1,12 @@
+.heading-name{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 600;
+}
+.bg-colr{
+	--webkit-backdrop-filter: blur(7px);
+	/* --webkit-backdrop-filter: blur(7px); */
+    border-bottom: 1px solid rgba(255,255,255,0.1);
+    background-color: rgba(0,0,0,0.2);
+
+}
