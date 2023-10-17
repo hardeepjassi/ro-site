@@ -88,7 +88,7 @@ class Cardd extends React.Component{
               <img src={item.src[indices[cardIndex]]} alt="" />
             </div>
             <div className="box">
-              <div className="row">
+              <div className="row ">
                 <h2>{item.title}</h2>
                 <span className="new-price">
                   &#x20b9;{item.pricenew}{" "}
