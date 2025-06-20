@@ -15,28 +15,18 @@ const Review = () => {
   }, []);
 
   return (
-    <>
-      {loading ? (
+     <>
+      {loading && (
         <div className="pre-loader">
           <div id="cloud-intro"></div>
           <div className="drone">
             <p className="loadingText">L O A D I N G . . .</p>
-            <div className="arm top-left-arm">
-              <div className="prop"></div>
-            </div>
-            <div className="arm top-right-arm">
-              <div className="prop"></div>
-            </div>
-            <div className="arm bottom-left-arm">
-              <div className="prop"></div>
-            </div>
-            <div className="arm bottom-right-arm">
-              <div className="prop"></div>
-            </div>
+            <div className="arm top-left-arm"><div className="prop"></div></div>
+            <div className="arm top-right-arm"><div className="prop"></div></div>
+            <div className="arm bottom-left-arm"><div className="prop"></div></div>
+            <div className="arm bottom-right-arm"><div className="prop"></div></div>
           </div>
         </div>
-      ) : (
-        <div>Redirecting...</div> // You can add an optional text here if needed.
       )}
     </>
   );
