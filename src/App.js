@@ -1,15 +1,17 @@
-import logo from './logo.svg';
+import React from 'react';
 import './App.css';
-
-import { Container } from 'react-bootstrap';
-import Home from './pages/home';
-
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';  
+import Home from './pages/Home';
+import Review from './pages/Review';
 
 function App() {
   return (
-    <Home/>
-
-
+    <Router>
+      <Routes>  
+        <Route path="/" element={<Home />} />
+        <Route path="/review" element={<Review />} />
+      </Routes>
+    </Router>
   );
 }
 
